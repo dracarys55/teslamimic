@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-image: url(./indexPage/M3-Homepage-Desktop-LHD.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  header {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+
+    div.header-right {
+      margin-left: 2rem;
+      img {
+        width: 130px;
+      }
+    }
+    div.header-mid {
+      display: flex;
+      flex-wrap: wrap;
+
+      button {
+        background-color: transparent;
+        cursor: pointer;
+        margin: 10px 10px;
+        border: none;
+        transition: all 1s ease;
+        width: 6rem;
+        height: 2rem;
+        border-radius: 7%;
+        font-weight: 600;
+        font-size: 15px;
+      }
+      button:hover {
+        background-color: rgba(39, 39, 39, 0.106);
+      }
+    }
+    @media (max-width: 700px) {
+      div.header-mid {
+        align-items: center;
+        justify-content: center;
+      }
+    }
+    div.header-left {
+      margin-right: 1rem;
+      button {
+        background-color: transparent;
+        cursor: pointer;
+        margin: 5px 0px;
+        border: none;
+        transition: all 1s ease;
+        width: 5rem;
+        height: 2rem;
+        border-radius: 7%;
+        font-weight: 600;
+        font-size: 15px;
+      }
+      button:hover {
+        background-color: rgba(39, 39, 39, 0.106);
+      }
+    }
+  }
+  @media (max-width: 929px) {
+    header {
+      justify-content: center;
+    }
+  }
+
+  div.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      margin-top: 1.5rem;
+    }
+    p {
+      margin-top: 1rem;
+      font-size: 15px;
+      font-weight: 400;
+      span {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        cursor: pointer;
+        transition: all 0.25s ease;
+      }
+      span:hover {
+        box-shadow: 0 1px 0 0 black;
+        color: black;
+      }
+    }
+
+    div.clickButtonSection {
+      position: absolute;
+      bottom: 15%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
+      button.black {
+        width: 15rem;
+        height: 2.5rem;
+        border-radius: 5%;
+        margin: 0 10px;
+        background-color: rgb(57, 60, 65);
+        border: none;
+        a {
+          text-decoration: none;
+          color: rgb(240, 240, 240);
+          font-size: 15px;
+        }
+      }
+      button.white {
+        width: 15rem;
+        height: 2.5rem;
+        border-radius: 5%;
+        margin: 0 10px;
+        background-color: rgb(236, 234, 234);
+        border: none;
+        a {
+          text-decoration: none;
+          color: rgb(57, 60, 65);
+          font-size: 15px;
+        }
+      }
+
+      @media (max-width: 700px) {
+        button {
+          margin-bottom: 10px !important;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    background-image: url(./indexPage/M3-Homepage-Mobile-LHD.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
