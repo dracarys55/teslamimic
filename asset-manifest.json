@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/teslamimic/static/css/main.0f028eb0.css",
+    "main.js": "/teslamimic/static/js/main.2a39dd8d.js",
+    "static/media/M3-Homepage-Desktop-LHD.jpg": "/teslamimic/static/media/M3-Homepage-Desktop-LHD.372f67ca29f5537fdd31.jpg",
+    "static/media/M3-Homepage-Mobile-LHD.jpg": "/teslamimic/static/media/M3-Homepage-Mobile-LHD.ddaf80c95e5dad4e68a2.jpg",
+    "index.html": "/teslamimic/index.html",
+    "static/media/Tesla_Inc.-Wordmark.webp": "/teslamimic/static/media/Tesla_Inc.-Wordmark.6353969b49891191c8da.webp",
+    "main.0f028eb0.css.map": "/teslamimic/static/css/main.0f028eb0.css.map",
+    "main.2a39dd8d.js.map": "/teslamimic/static/js/main.2a39dd8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0f028eb0.css",
+    "static/js/main.2a39dd8d.js"
+  ]
+}
